@@ -30,7 +30,7 @@
   <title>Prime Randomizer Item Location Tracker</title>
 </head>
 <body ng-controller="PageController">
-<div class="container-fluid">
+<div class="container-fluid" style="height: 10vh">
   <nav class="navbar navbar-default" role="navigation">
     <a class="navbar-brand" href="#">Prime Randomizer Helper</a>
     <ul class="nav navbar-nav">
@@ -46,7 +46,7 @@
       <li><a href ng-click="checkCompletability()">Check Completability</a></li>
     </ul>
   </nav>
-  <div class="col-md-12">
+  <div class="col-md-12" style="height: 5vh">
     <p class="text-center col-xs-12">
       <small class="bug-text">
         Feature requests and bugs go here:
@@ -54,7 +54,7 @@
       </small>
     </p>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6" style="height: 85vh; overflow-y: scroll;">
     <h2>Item Locations
       <span
           class="items-rem-count">{{itemFoundCount}} visited {{itemTotalCount}} total</span>
@@ -88,7 +88,7 @@
       </li>
     </ul>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-6" style="height: 85vh; overflow-y: scroll;">
     <h2>
       Items <span class="items-rem-count">{{itemFoundCount}} found {{itemObtainedCount}} obtained {{itemTotalCount}} total</span>
     </h2>
